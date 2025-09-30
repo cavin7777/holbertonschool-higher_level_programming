@@ -2,4 +2,4 @@
 
 number = 98
 
-print("%s Battery street" %number)
+print(f"{number} Battery street")
