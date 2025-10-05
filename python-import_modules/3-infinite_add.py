@@ -7,8 +7,7 @@ def main():
     argv = sys.argv[1:]
     argc = len(argv)
 
-    for i in range(argc):
-        print(sum(int(argv[i])))
+    print(sum(int(argv[i])))
 
 
 if __name__ == "__main__":
