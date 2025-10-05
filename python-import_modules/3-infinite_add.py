@@ -10,7 +10,7 @@ def main():
 
     for i in range(argc):
         total += int(argv[i])
-    
+
     print(total)
 
 
