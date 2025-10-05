@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for i in range(65, 91):
-    print('{}'.format(chr(i)), end="")
+c = "65"
+print('{}'.format(chr(int(c))) in range('A', 'Z'), end="")
