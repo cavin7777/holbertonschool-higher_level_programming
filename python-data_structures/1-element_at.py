@@ -3,8 +3,8 @@
 
 def element_at(my_list, idx):
     if idx < 0:
-        return
+        print("Element at index {:d} is None".format(idx))
     if idx > len(my_list):
-        return
+        print("Element at index {:d} is None".format(idx))
     for i in range(len(my_list)):
         return (my_list[idx])
