@@ -2,8 +2,7 @@
 
 def update_dictionary(a_dictionary, key, value):
     if a_dictionary == {}:
-        a_dictionary.keys = key
-        a_dictionary.values = value
+        a_dictionary.setdefault("key", value)
 
     for i in a_dictionary.keys():
         if i == key:
