@@ -12,4 +12,5 @@ class Square:
         """
         function size no attribute.
         """
+
         self.__size = size
