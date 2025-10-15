@@ -3,6 +3,8 @@
 """
 Define square empty.
 """
+
+
 class Square:
     """
     Square Class.
@@ -10,7 +12,7 @@ class Square:
 
     def __init__(self, size=0):
         """function size no attribute.
-        
+
         Parameters:
         size:
 
@@ -25,4 +27,3 @@ class Square:
         if size < 0:
             raise ValueError("size must be >= 0")
         self.__size = size
-            
