@@ -2,9 +2,10 @@
 """
 Define square empty.
 """
+
+
 class Square:
     """
     Square Class.
     """
-
     pass
