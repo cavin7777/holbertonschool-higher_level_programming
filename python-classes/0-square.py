@@ -4,3 +4,4 @@
 class Square:
     """Square Class."""
     pass
+    """No variables."""
