@@ -7,3 +7,4 @@ class Square:
     """Square Class."""
     pass
     """No function."""
+"""END"""
