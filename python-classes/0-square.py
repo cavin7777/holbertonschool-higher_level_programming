@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 
-"""Define square empty."""
+"""
+Define square empty.
+"""
 class Square:
     """Square Class."""
     pass
-    """No variables."""
+    """No function."""
