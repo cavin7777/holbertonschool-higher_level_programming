@@ -4,7 +4,8 @@
 Define square empty.
 """
 class Square:
-    """Square Class."""
+    """
+    Square Class.
+    """
+
     pass
-    """No function."""
-"""END"""
