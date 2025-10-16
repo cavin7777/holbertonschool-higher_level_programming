@@ -6,6 +6,6 @@ Rectangle
 
 class Rectangle:
     """
-    Square Class.
+    Rectangle Class.
     """
     pass
