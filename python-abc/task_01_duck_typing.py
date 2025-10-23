@@ -1,4 +1,6 @@
+#!/usr/bin/env python3
 from abc import ABC, abstractmethod
+import math
 
 """
 Shape
@@ -26,10 +28,10 @@ class Circle(Shape):
         self.radius = radius
 
     def area(self):
-        return 3.14159 * (self.radius ** 2)
+        return math.pi * (self.radius ** 2)
 
     def perimeter(self):
-        return 2 * 3.14159 * self.radius
+        return 2 * math.pi * self.radius
 
 
 class Rectangle(Shape):
