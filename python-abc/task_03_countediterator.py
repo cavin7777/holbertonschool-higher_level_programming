@@ -1,14 +1,7 @@
 #!/usr/bin/python3
 
-"""
-Iterator
-"""
-
 
 class CountedIterator:
-    """
-    Iterator Class
-    """
     def __init__(self, some_iterable):
         self._iterator = iter(some_iterable)
         self.counter = 0
