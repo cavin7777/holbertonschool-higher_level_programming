@@ -24,10 +24,10 @@ class Circle(Shape):
     """
     def __init__(self, radius):
         self.radius = radius
-    
+
     def area(self):
         return 3.14159 * (self.radius ** 2)
-    
+
     def perimeter(self):
         return 2 * 3.14159 * self.radius
 
@@ -45,6 +45,7 @@ class Rectangle(Shape):
 
     def perimeter(self):
         return 2 * (self.height + self.width)
+
 
 def shape_info(thing):
     print("Area:", thing.area())
