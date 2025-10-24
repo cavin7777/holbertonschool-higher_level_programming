@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 from abc import ABC, abstractmethod
 import math
 
@@ -50,5 +50,5 @@ class Rectangle(Shape):
 
 
 def shape_info(thing):
-    print("Area:", thing.area())
-    print("Perimeter:", thing.perimeter())
+    print("Area: ", thing.area())
+    print("Perimeter: ", thing.perimeter())
