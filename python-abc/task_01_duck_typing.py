@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""Task 2 Duck typing"""
 from abc import ABC, abstractmethod
 import math
+"""Task 2 Duck typing"""
 
 
 class Shape(ABC):
