@@ -6,7 +6,7 @@ import requests
 
 def fetch_and_print_posts():
     r = requests.get('https://jsonplaceholder.typicode.com/posts')
-    print(r.url)
+
     print(f"Status Code: {r.status_code}")
 
     if r.status_code == 200:
@@ -17,7 +17,6 @@ def fetch_and_print_posts():
 
 def fetch_and_save_posts():
     r = requests.get('https://jsonplaceholder.typicode.com/posts')
-    print(r.url)
     print(f"Status Code: {r.status_code}")
 
     if r.status_code == 200:
