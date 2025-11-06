@@ -47,6 +47,7 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
             self.send_response(404)
             self.send_header("Content-type", "text/plain")
             self.end_headers()
+            self.wfile.write(b"404 Not Found - Endpoint not found")
 
 def run(server_class=HTTPServer, handler_class=SimpleHTTPRequestHandler):
     server_address = ('', 8000)
