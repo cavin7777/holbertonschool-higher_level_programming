@@ -8,27 +8,7 @@ from flask import Flask, jsonify, request, abort
 app = Flask(__name__)
 
 # In-memory storage for users
-users = {
-    "jane": {
-        "username": "jane",
-        "name": "Jane",
-        "age": 28,
-        "city": "Los Angeles"
-    },
-    "john": {
-        "username": "john",
-        "name": "John",
-        "age": 30,
-        "city": "New York"
-    },
-    "alice": {
-        "username": "alice",
-        "name": "Alice",
-        "age": 25,
-        "city": "San Francisco"
-}
-}
-print("Initial users:", users)
+users = {}
 
 @app.route('/', methods=['GET'])
 def home():
