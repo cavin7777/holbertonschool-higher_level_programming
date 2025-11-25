@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
-0-select_states.py
 Lists all states from the database hbtn_0e_0_usa
 """
 
@@ -24,7 +23,7 @@ if __name__ == "__main__":
     )
 
     cursor = db.cursor()
-    cursor.execute("SELECT id, name FROM states ORDER BY id ASC;")
+    cursor.execute("SELECT * FROM states ORDER BY id ASC;")
     rows = cursor.fetchall()
 
     for row in rows:
