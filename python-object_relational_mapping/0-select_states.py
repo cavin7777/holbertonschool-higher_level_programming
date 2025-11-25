@@ -2,7 +2,6 @@
 """
 0-select_states.py
 Lists all states from the database hbtn_0e_0_usa
-Usage: ./0-select_states.py <mysql username> <mysql password> <database name>
 """
 
 import sys
@@ -10,20 +9,17 @@ import MySQLdb
 
 if __name__ == "__main__":
     # Get arguments
-    if len(sys.argv) != 4:
-        print("Usage: ./0-select_states.py <username> <password> <database>")
-        sys.exit(1)
 
-    user = sys.argv[1]
-    password = sys.argv[2]
-    database = sys.argv[3]
+    mysql_username = sys.argv[1]
+    mysql_password = sys.argv[2]
+    database_name = sys.argv[3]
 
     # Connect to MySQL
     db = MySQLdb.connect(
         host="localhost",
-        user=user,
-        passwd=password,
-        db=database,
+        user=mysql_username,
+        passwd=mysql_password,
+        db=database_name,
         port=3306
     )
 
