@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Deletes all State objects with a name containing the letter 'a' from the database
+Deletes all State objects with a name containing the letter 'a'
+from the database
 
 """
 
@@ -24,7 +25,9 @@ if __name__ == "__main__":
     session = Session()
 
     # Query all states containing the letter 'a'
-    states_to_delete = session.query(State).filter(State.name.like("%a%")).all()
+    states_to_delete = session.query(State).filter(
+        State.name.like("%a%")
+    ).all()
 
     # Delete them
     for state in states_to_delete:
